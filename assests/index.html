@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app">
+    <h1 class="title pb-3">Wheather App!</h1>
+    <div class="container">
+    <input type="text" name="input" id="city" class="input-group-text rounded text-center p-3 " placeholder="Enter city name here.">
+    <input type="text" name="input" id="feeling" class="input-group-text rounded text-center p-3 mt-3  " placeholder="How do you feel today?">
+   <div class="mt-4"> <button type="button" class="btn btn-primary btn-lg pr-5" id="check">Check weather.</button></div>
+    <div class="form-group mt-4">
+        <label for="exampleFormControlTextarea1">Weather update!</label>
+        <div id="temp"></div>
+        <div id="date"></div>
+        <div class="mood"></div>
+      </div>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
